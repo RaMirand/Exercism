@@ -4,17 +4,17 @@
 
 ## C# Exercises Index
 
-+ <span style="color:cyan;font-style:italic">**annalyns-infiltration :** Exercise about booleans</span>
-+ <span style="color:cyan;font-style:italic">**bird-watcher** : Exercise about Arrays</span>
-+ <span style="color:cyan;font-style:italic">**bob** : Exercise about Extension Methods</span>
-+ <span style="color:cyan;font-style:italic">**booking-up-for-beauty** : Exercise about Datetimes</span>
-+ <span style="color:cyan;font-style:italic">**cars-assemble** : Exercise about If Statements</span>
-+ <span style="color:cyan;font-style:italic">**darts** : Exercise about Floating Point Numbers</span>
-+ <span style="color:cyan;font-style:italic">**elons-toys** : Exercise about Classes</span>
-+ <span style="color:cyan;font-style:italic">**football-match-reports** : Exercise about Switch Statements</span>
-+ <span style="color:cyan;font-style:italic">**hello-world** : Introduction to Exercism</span>
-+ <span style="color:cyan;font-style:italic">**interest-is-interesting** : Exercise about While Loops</span>
-+ <span style="color:cyan;font-style:italic">**international-calling-connoisseur** : Exercise about dictionaries</span>
-+ <span style="color:cyan;font-style:italic">**leap** : Exercise about If Statements</span>
-+ <span style="color:cyan;font-style:italic">**squeaky-clean** : Exercise about StringBuilders</span>
-+ <span style="color:cyan;font-style:italic">**tracks-on-tracks-on-tracks** : Exercise about Lists</span>
++ **annalyns-infiltration :**<span style="color : cyan;font-style : italic"> Exercise about booleans</span>
++ **bird-watcher :**<span style="color : cyan;font-style : italic"> Exercise about Arrays</span>
++ **bob :**<span style="color : cyan;font-style : italic"> Exercise about Extension Methods</span>
++ **booking-up-for-beauty :**<span style="color : cyan;font-style : italic"> Exercise about Datetimes</span>
++ **cars-assemble :**<span style="color : cyan;font-style : italic"> Exercise about If Statements</span>
++ **darts :**<span style="color : cyan;font-style : italic"> Exercise about Floating Point Numbers</span>
++ **elons-toys :**<span style="color : cyan;font-style : italic"> Exercise about Classes</span>
++ **football-match-reports :**<span style="color : cyan;font-style : italic"> Exercise about Switch Statements</span>
++ **hello-world :**<span style="color : cyan;font-style : italic"> Introduction to Exercism</span>
++ **interest-is-interesting :**<span style="color : cyan;font-style : italic"> Exercise about While Loops</span>
++ **international-calling-connoisseur :**<span style="color : cyan;font-style : italic"> Exercise about dictionaries</span>
++ **leap :**<span style="color : cyan;font-style : italic"> Exercise about If Statements</span>
++ **squeaky-clean :**<span style="color : cyan;font-style : italic"> Exercise about StringBuilders</span>
++ **tracks-on-tracks-on-tracks :**<span style="color : cyan;font-style : italic"> Exercise about Lists</span>
