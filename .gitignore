@@ -14,7 +14,7 @@
 .exercism
 
 #Ignore folders for Test Projects
-**/*[Tt]este*/
+**/*[Tt]este*/**
 
 # Build results
 [Dd]ebug/
