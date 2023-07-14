@@ -27,24 +27,20 @@ public static class PlayAnalyzer
             default:
                 throw new ArgumentOutOfRangeException($"Não foi encontrada a camiseta {shirtNum}!");
         }
-
-        throw new ArgumentOutOfRangeException($"Não foi encontrada a camiseta {shirtNum}!");
     }
 
     public static string AnalyzeOffField(object report)
     {
         switch (report)
         {
-            case int:
-                return $"There are {report} supporters at the match.";
-            case string:
-                return report.ToString();
-            case Foul:
-                return "The referee deemed a foul.";
+            case int supporters:
+                return $"There are {supporters} supporters at the match.";
+            case string announcement:
+                return announcement;
             case Injury injury:
                 return $"Oh no! {injury.GetDescription()} Medics are on the field.";
-            case Incident:
-                return "An incident happened.";
+            case Incident incident:
+                return incident.GetDescription();
             case Manager manager when manager.Club is null:
                 return manager.Name;
             case Manager manager:
@@ -53,7 +49,5 @@ public static class PlayAnalyzer
             default:
                 throw new ArgumentException();
         }
-
-        throw new NotImplementedException($"Please implement the (static) PlayAnalyzer.AnalyzeOffField() method");
     }
 }
