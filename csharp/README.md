@@ -1,6 +1,6 @@
 # C# Exercises from Exercism Website
 
-**Link for Exercism Website:** [link](https://exercism.org/)
+**Link for [Exercism Website](https://exercism.org/)**
 
 ## C# Exercises Index
 
