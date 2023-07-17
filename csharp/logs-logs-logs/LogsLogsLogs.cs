@@ -14,51 +14,19 @@ public enum LogLevel : int
 
 static class LogLine
 {
-
-    public static LogLevel ParseLogLevel(string logLine)
+    public static LogLevel ParseLogLevel(string logLine) => GetLogCode(logLine) switch
     {
-        string level = logLine.Substring(1, logLine.IndexOf(']') - 1);
+        "TRC" => LogLevel.Trace,
+        "DBG" => LogLevel.Debug,
+        "INF" => LogLevel.Info,
+        "WRN" => LogLevel.Warning,
+        "ERR" => LogLevel.Error,
+        "FTL" => LogLevel.Fatal,
+        _ => LogLevel.Unknown
+    };
 
-        switch (level)
-        {
-            case "TRC":
-                return LogLevel.Trace;
-            case "DBG":
-                return LogLevel.Debug;
-            case "INF":
-                return LogLevel.Info;
-            case "WRN":
-                return LogLevel.Warning;
-            case "ERR":
-                return LogLevel.Error;
-            case "FTL":
-                return LogLevel.Fatal;
-            default:
-                return LogLevel.Unknown;
+    public static string OutputForShortLog(LogLevel logLevel, string message) => $"{(int)logLevel}:{message}";
 
-        }
-    }
+    private static string GetLogCode(string logLine) => logLine.Substring(1, logLine.IndexOf(']') - 1);
 
-    public static string OutputForShortLog(LogLevel logLevel, string message)
-    {
-        switch (logLevel)
-        {
-            case (LogLevel)0:
-                return $"{0}:{message}";
-            case (LogLevel)1:
-                return $"{1}:{message}";
-            case (LogLevel)2:
-                return $"{2}:{message}";
-            case (LogLevel)4:
-                return $"{4}:{message}";
-            case (LogLevel)5:
-                return $"{5}:{message}";
-            case (LogLevel)6:
-                return $"{6}:{message}";
-            case (LogLevel)42:
-                return $"{42}:{message}";
-        }
-        return message;
-
-    }
 }
