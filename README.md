@@ -1,8 +1,12 @@
+<header>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</header>
+
 # Exercises from Exercism Website
 
 **Link for [Exercism Website](https://exercism.org/)**
 
-## C# Exercises
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" width="40"/> Exercises
 
 + **[annalyns-infiltration](https://github.com/RaMirand/Exercism/blob/main/csharp/annalyns-infiltration/README.md)** : *Booleans*
 + **[beauty-salon-goes-global](https://github.com/RaMirand/Exercism/blob/main/csharp/beauty-salon-goes-global/README.md)** : *TimeZone, DateTime, If Statements, OS Differentiation*
