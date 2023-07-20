@@ -1,8 +1,4 @@
-# C# Exercises from Exercism Website
-
-**Link for [Exercism Website](https://exercism.org/)**
-
-## C# Exercises Index
+# C# Exercises Index
 
 + **annalyns-infiltration :** *Booleans*
 + **bird-watcher :** *Arrays*
@@ -16,5 +12,11 @@
 + **interest-is-interesting :** *While Loops*
 + **international-calling-connoisseur :** *Dictionaries*
 + **leap :** *If Statements*
++ **logs-logs-logs** *Enums*
++ **need-for-speed** *Constructors*
 + **squeaky-clean :** *StringBuilders*
 + **tracks-on-tracks-on-tracks :** *Lists*
+
+### Exercism
+
+**Link for [Exercism Website](https://exercism.org/)**
