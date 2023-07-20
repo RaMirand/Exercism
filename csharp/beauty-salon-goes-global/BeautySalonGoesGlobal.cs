@@ -1,4 +1,6 @@
 using System;
+using System.Globalization;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Xunit.Sdk;
 
@@ -32,41 +34,33 @@ public static class Appointment
         return targetTime;
     }
 
-    public static DateTime GetAlertTime(DateTime appointment, AlertLevel alertLevel)
-    {
-        DateTime alertTime = new DateTime();
-
-        switch (alertLevel)
+    public static DateTime GetAlertTime(DateTime appointment, AlertLevel alertLevel) =>
+        alertLevel switch
         {
-            case AlertLevel.Early:
-                alertTime = appointment.AddDays(-1);
-                break;
-            case AlertLevel.Standard:
-                alertTime = appointment.AddHours(-1).AddMinutes(-45);
-                break;
-            case AlertLevel.Late:
-                alertTime = appointment.AddMinutes(-30);
-                break;
-        }
-        return alertTime;
-    }
+            AlertLevel.Early => appointment.AddDays(-1),
+            AlertLevel.Standard => appointment.AddHours(-1).AddMinutes(-45),
+            AlertLevel.Late => appointment.AddMinutes(-30),
+            _ => appointment
+        };
 
     public static bool HasDaylightSavingChanged(DateTime dt, Location location)
     {
         TimeZoneInfo timeZone = GetTimeZoneForLocationAndOs(location);
 
-        return timeZone.IsDaylightSavingTime(dt);
+        // This method wants to verify if the IsDaylightSavingTime of the date informed is different than the IsDaylightSavingTime of 7 days ago.
+        return timeZone.IsDaylightSavingTime(dt) != timeZone.IsDaylightSavingTime(dt.AddDays(-7));
     }
 
     public static DateTime NormalizeDateTime(string dtStr, Location location)
     {
-        TimeZoneInfo timeZone = GetTimeZoneForLocationAndOs(location);
-
-        DateTime dateScheduled = DateTime.Parse(dtStr, System.Globalization.CultureInfo.InvariantCulture);
-
-
-
-        throw new NotImplementedException("Please implement the (static) Appointment.NormalizeDateTime() method");
+        try
+        {
+            return DateTime.Parse(dtStr, location.GetCultureInfo());
+        } 
+        catch
+        {
+            return DateTime.MinValue;
+        }
     }
 
     public static TimeZoneInfo GetTimeZoneForLocationAndOs(Location location)
@@ -95,5 +89,14 @@ public static class Appointment
             _ => throw new ArgumentException("Invalid Location"),
         };
     }
+
+    public static CultureInfo GetCultureInfo(this Location location) =>
+        location switch
+        {
+            Location.NewYork => CultureInfo.GetCultureInfo("en-US"),
+            Location.London => CultureInfo.GetCultureInfo("en-GB"),
+            Location.Paris => CultureInfo.GetCultureInfo("fr-FR"),
+            _ => CultureInfo.GetCultureInfo("en-US")
+        };
 
 }
