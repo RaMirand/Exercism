@@ -4,7 +4,9 @@
 
 # Exercises from Exercism Website
 
+
 **Link for [Exercism Website](https://exercism.org/)**
+
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" width="40"/> Exercises
 
@@ -21,7 +23,13 @@
 + **[interest-is-interesting](https://github.com/RaMirand/Exercism/blob/main/csharp/interest-is-interesting/README.md)** : *While Loops*
 + **[international-calling-connoisseur](https://github.com/RaMirand/Exercism/blob/main/csharp/international-calling-connoisseur/README.md)** : *Dictionaries*
 + **[leap](https://github.com/RaMirand/Exercism/blob/main/csharp/leap/README.md)** : *If Statements*
++ **[log-levels](https://github.com/RaMirand/Exercism/blob/main/csharp/log-levels/README.md)** : *Strings*
 + **[logs-logs-logs](https://github.com/RaMirand/Exercism/blob/main/csharp/logs-logs-logs/README.md)** : *Enums*
++ **[lucians-luscious-lasagna](https://github.com/RaMirand/Exercism/blob/main/csharp/lucians-luscious-lasagna/README.md)** : *Basics*
 + **[need-for-speed](https://github.com/RaMirand/Exercism/blob/main/csharp/need-for-speed/README.md)** : *Constructors*
++ **[phone-number-analysis](https://github.com/RaMirand/Exercism/blob/main/csharp/phone-number-analysis/README.md)** : *Tuples*
++ **[roll-the-die](https://github.com/RaMirand/Exercism/blob/main/csharp/roll-the-die/README.md)** : *Randomness*
 + **[squeaky-clean](https://github.com/RaMirand/Exercism/blob/main/csharp/squeaky-clean/README.md)** : *StringBuilders*
++ **[tim-from-marketing](https://github.com/RaMirand/Exercism/blob/main/csharp/tim-from-marketing/README.md)** : *Nullability*
 + **[tracks-on-tracks-on-tracks](https://github.com/RaMirand/Exercism/blob/main/csharp/tracks-on-tracks-on-tracks/README.md)** : *Lists*
++ **[wizards-and-warriors](https://github.com/RaMirand/Exercism/blob/main/csharp/wizards-and-warriors/README.md)** : *Inheritance*
