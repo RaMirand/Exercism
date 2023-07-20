@@ -1,6 +1,7 @@
 # C# Exercises Index
 
 + **[annalyns-infiltration](https://github.com/RaMirand/Exercism/blob/main/csharp/annalyns-infiltration/README.md)** : *Booleans*
++ **[beauty-salon-goes-global](https://github.com/RaMirand/Exercism/blob/main/csharp/beauty-salon-goes-global/README.md)** : *TimeZone, DateTime, If Statements, OS Differentiation*
 + **[bird-watcher](https://github.com/RaMirand/Exercism/blob/main/csharp/bird-watcher/README.md)** : *Arrays*
 + **[bob](https://github.com/RaMirand/Exercism/blob/main/csharp/bob/README.md)** : *Extension Methods*
 + **[booking-up-for-beauty](https://github.com/RaMirand/Exercism/blob/main/csharp/booking-up-for-beauty/README.md)** : *Datetimes*
