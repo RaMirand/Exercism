@@ -15,6 +15,7 @@
 + **[bird-watcher](https://github.com/RaMirand/Exercism/blob/main/csharp/bird-watcher/README.md)** : *Arrays*
 + **[bob](https://github.com/RaMirand/Exercism/blob/main/csharp/bob/README.md)** : *Extension Methods*
 + **[booking-up-for-beauty](https://github.com/RaMirand/Exercism/blob/main/csharp/booking-up-for-beauty/README.md)** : *DateTime*
++ **[calculator-conundrum](https://github.com/RaMirand/Exercism/blob/main/csharp/calculator-conundrum/README.md)** : *Exceptions*
 + **[cars-assemble](https://github.com/RaMirand/Exercism/blob/main/csharp/cars-assemble/README.md)** : *If Statements*
 + **[darts](https://github.com/RaMirand/Exercism/blob/main/csharp/darts/README.md)** : *Floating Point Numbers*
 + **[elons-toys](https://github.com/RaMirand/Exercism/blob/main/csharp/elons-toys/README.md)** : *Classes*
@@ -23,6 +24,7 @@
 + **[interest-is-interesting](https://github.com/RaMirand/Exercism/blob/main/csharp/interest-is-interesting/README.md)** : *While Loops*
 + **[international-calling-connoisseur](https://github.com/RaMirand/Exercism/blob/main/csharp/international-calling-connoisseur/README.md)** : *Dictionaries*
 + **[leap](https://github.com/RaMirand/Exercism/blob/main/csharp/leap/README.md)** : *If Statements*
++ **[log-analysis](https://github.com/RaMirand/Exercism/blob/main/csharp/log-analysis/README.md)** : *Extension Methods*
 + **[log-levels](https://github.com/RaMirand/Exercism/blob/main/csharp/log-levels/README.md)** : *Strings*
 + **[logs-logs-logs](https://github.com/RaMirand/Exercism/blob/main/csharp/logs-logs-logs/README.md)** : *Enums*
 + **[lucians-luscious-lasagna](https://github.com/RaMirand/Exercism/blob/main/csharp/lucians-luscious-lasagna/README.md)** : *Basics*
